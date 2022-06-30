@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('//db.onlinewebfonts.com/c/a844729f70281579017e703a84941e16?family=Parchment');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color:#CCE3DE;
+}
+.main{
+    width: 100%;
+    height: 7000px;
+    color: #CCE3DE;
+}
+.title{
+    font-family: Parchment;
+    font-size: 100px;
+    text-align: center;
+}
+.subtitle{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 28px;
+    text-align: center;
+}
+.navbar{
+    width: 100%;
+    height: 83px;
+    background-color: #A4C3B2;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 28px;
+    margin-top: 18px;
+    display: flex;
+    flex-flow: nowrap;
+}
+.navtext{
+    margin-top: 18px;
+    margin-left: 134px;
+    margin-right: 134px;
+}
+.block1{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.taycan{
+    position: relative;
+    width: 1636px;
+    height: 25%;
+    margin-top: 50px;
+}
+.cards{
+    width: 100%;
+    height: 675px;
+    background-color: #A4C3B2;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap:wrap;
+}
+.card{
+    margin-left: 134px;
+    margin-top: 87px;
+}
+.icon{
+    margin-left: 134px;
+}
+.carflex{
+    
+    display: flex;
+    align-items: flex-start;
+    flex-wrap:wrap;
+}
+.iconcar{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.faq{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 35px;
+    text-align:left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 134px;
+}
+.titlefaq{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 30px;
+    text-align:left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 134px;
+}
+.contact{
+    width: 100%;
+    height: 850px;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 35px;
+    display: flex;
+    background-color: #A4C3B2;
+}
+.map{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.class1{
+    display: flex;
+    flex-direction: column;
+}
+.cont{
+    margin-left: 234px;
+    margin-top: 100px;
+}
+.context{
+    margin-left: 180px;
+    margin-top: 65px;
+}
+.context1{
+    margin-left: 100px;
+    margin-top: 65px;
+}
+.icon-partner{
+    margin-left: 46px;
+    margin-right: 41px;
+    margin-top: 40px;
+}
+.block2{
+    width: 100%;
+    height: 100px;
+}
+.footer{
+    width: 100%;
+    height: 169px;
+    background-color: #A4C3B2;
+    font-family: Parchment;
+    font-size: 100px;
+    text-align: center;
+}
+.footer-text{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 35px;
+}
+table.iksweb{
+	width: 80%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+    margin-left: 200px;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 1px solid #595959;
+    background-color: #f3f3f3
+}
+table.iksweb td,table.iksweb th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.iksweb th {
+	background-color: #f3f3f3; 
+	color: #f3f3f3; 
+	font-weight: normal;
+}
+.textarea{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Noto Serif Display', serif;
+    width: 25%;
+    height: 400px;
+    align-items: center;
+    margin-left: 700px;
+}
+input{
+    width: 700px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 30px;
+}
+button{
+    width: 300px;
+    height: 100px;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 35px;
+    margin-bottom: 34px;
+    background-color: #A4C3B2;
+}
+.pic{
+    margin-left: 750px;
+    width: 350px;
+    height: 350px;
+}
+.login{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+}
+.email{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 40px;
+}
+.discount{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.logout{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+
+
+
+  
